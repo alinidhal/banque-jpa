@@ -51,7 +51,7 @@ public class Client {
 	@Override
 	public String toString() {
 		return "Client [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", dateDeNaissance=" + dateDeNaissance
-				+ ", adresse=" + adresse + ", banque=" + banque + ", comptes=" + comptes + "]";
+				+ ", adresse=" + adresse + ", comptes=" + comptes + "]";
 	}
 
 	public Adresse getAdresse() {

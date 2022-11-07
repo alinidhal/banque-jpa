@@ -29,6 +29,11 @@ public class Compte {
 	@OneToMany(mappedBy = "compte")
 	private List<Operation> operation = new ArrayList<Operation>();
 	
+	@Override
+	public String toString() {
+		return "Compte [id=" + id + ", numero=" + numero + ", operation=" + operation + ", solde=" + solde + "]";
+	}
+
 	public int getId() {
 		return id;
 	}
